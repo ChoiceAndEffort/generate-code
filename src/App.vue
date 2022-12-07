@@ -1,20 +1,26 @@
+<!--
+ * @Author: suchiva@126.com
+ * @Date: 2022-09-06 14:38:45
+ * @LastEditors: gonglei
+ * @LastEditTime: 2022-10-20 11:23:17
+ * @Description: 
+-->
 <template>
   <div id="app">
-    <router-view> </router-view>
+    1111111111111
+
+    <router-view />
   </div>
 </template>
 
-<script>
-export default {
-  name: "App",
-};
-</script>
-
-<style lang="less" scoped>
+<style>
+html,
+body,
 #app {
-  height: 98vh;
-  width: 98%;
-  box-sizing: border-box;
-  padding: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 </style>
